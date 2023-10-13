@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        /*1.descendent <main tag[space]styler tag{}>
+        div p{color: blue;}*/
+        /*  2.child <main tag>styler tag{}>
+div>p{color: brown;} */
+        /*3.adjuscent sibling <main tag+styler tag>
+div+p{color: aqua;} */
+        /*4.general siblings <main tag~styler tag>
+div~p{color: chocolate;}*/
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>para 1</p>
+        <p>para 2</p>
+        <div>
+            <p> gopal</p>
+            <ul>
+                <li>gopal 1</li>
+                <li>gopal 1</li>
+                <li>gopal 1</li>
+            </ul>
+        </div>
+        <p>div 2 adj siblings</p>
+        <p>div 2 second child</p>
+        <section>
+            <p>para3</p>
+        </section>
+    </div>
+    <p>div 1 adj siblings</p>
+    <p>general siblings</p>
+
+</body>
+
+</html>

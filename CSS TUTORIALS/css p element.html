@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>css pseudo elements</title>
+    <style>
+        p::first-line{color: chartreuse;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+        p::first-letter {color: brown; font-size: 25px; }
+        h1::before{content:'Mr.';}
+        h1::after{content:'.The fullstack developer.'}
+        ::marker{color: blue; font-size: 28px;}
+        h3::selection{color: rgb(102, 21, 68);background-color: rgb(110, 54, 161);}
+
+    </style>
+</head>
+
+<body>
+    <pre><h2> css pseudo elements is used to style specified parts of an elements</h2>
+    syntsx==selector::pseudo elements{} 
+  <mark>types of pseudo elements:</mark><hr>
+1]first line--style to first line    p::first-line{}
+2]first letter--style to first letter     p::first-letter{}
+3]before/after--insert before/after content in given element content     h1::before/after{content:'property'}
+4]marker--style to markers in list elements    ::marker{ }
+5]selection--to style the our selected portion in tha data  ::selection{ }
+</pre>
+
+<p>
+     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nam provident laboriosam! 
+   Exercitationem vero numquam doloribus maxime perferendis? Fuga sapiente, repellat autem eveniet 
+   suscipit nam labore consectetur temporibus, nobis sint inventore deserunt, nostrum eligendi quos 
+   ad aliquid impedit sit hic voluptate tenetur? Veritatis nobis voluptates at nisi iste ea distinctio c
+   onsectetur, ut dicta, quo perferendis ad. Explicabo eius quam deserunt? Lorem ipsum dolor sit amet 
+   consectetur adipisicing elit. Tenetur temporibus provident minus, sunt natus quisquam unde eligendi 
+   quae ipsum voluptate.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure amet fugiat facilis similique nemo sint 
+rem ipsa cum minus, velit earum ratione sequi quisquam reiciendis repellendus quis unde sapiente illo.
+    </p>
+    <h1> I am the Gopal</h1>
+    
+    <ol>
+       <li>Gopal</li>
+       <li>swati</li>
+       <li>priyanka</li>
+    </ol>
+      <ul>
+        <li>kirti</li>
+       <li>krutika</li>
+       <li>komal</li>
+    </ul>
+
+   <h3>Hello World</h3>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>css pseudo class selector</title>
+    <style>
+        .gopal:active {
+            background-color: chartreuse;
+        }
+
+        h1:hover {
+            color: blue;
+        }
+
+        h2:link {
+            color: rgb(183, 192, 60);
+        }
+
+        h3:visited {
+            color: darkgreen;
+        }
+        input:focus{background-color: chartreuse;}
+        .indata:hover{background-color: chocolate;}
+        input:checked{height: 50px;width: 50px;}
+        div p:first-child{background-color: rgba(29, 29, 206, 0.596);}
+    </style>
+</head>
+
+<body>
+    <h2>Types of pseudo class selector</h2>
+    <pre>
+        1] :active
+        2] :hover
+        3] :link
+        4] :visited
+        5] :fosus
+        6] :checked
+        7] :first child
+    </pre>
+    <p class="gopal">I am [active] when mouse over me & click.i change my color you gived me in style</p>
+    <h1> I am hover,i change my color when mouse over me</h1>
+    <h2> I am link <a href="https://www.javatpoint.com">javatpoint i am still in a original color till you not visited
+            me</a></h2>
+    <h3> I am link <a href="https://www.gopalsnaukudkar.com">i am gopal and i am visited ones a time to change my color
+            permanently</a></h3>
+    <h4>I am focus and i am only for input tags to apply styles </h4>
+    <form class="indata">
+        First name:<input type="text" name="first name"><br>
+        Last name:<input type="text" name="lastname">
+    </form>
+    <h5> I am checked and i am apply style only for radio buttons and checkboxes in input tags</h5>
+    <form action="">
+       <input type="radio" value="male">Male<br>
+       <input type="radio" value="female">female<br>
+       <input type="checkbox" value="bike">I have a bike<br>
+       <input type="checkbox" value="car">I have a car
+    
+    </form><br>
+    <div>
+       I am first-child= only apply style for both div element to its first para[first child]
+        <p> para 1</p>
+        <p>para 2</p>
+        <p>para 3</p>
+    </div>
+    <div>
+        <p>para 4</p>
+        <p>para 5</p>
+        <p>para 6</p>
+    </div>
+
+
+
+</body>
+
+</html>
